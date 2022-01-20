@@ -1,4 +1,4 @@
-option "title" "TinyPilot Ledger"
+option "title" "Dummy Ledger"
 option "operating_currency" "USD"
 
 2021-01-01 open Assets:Checking
