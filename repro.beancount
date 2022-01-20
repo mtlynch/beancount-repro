@@ -1,0 +1,9 @@
+option "title" "TinyPilot Ledger"
+option "operating_currency" "USD"
+
+2021-01-01 open Assets:Checking
+2021-01-01 open Income:Dummy
+
+2021-11-30 * "Dummy" ""
+  Assets:Checking  1779.31 USD
+  Income:Dummy
