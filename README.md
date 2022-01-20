@@ -16,6 +16,9 @@ cd $(mktemp -d) && \
 ### Expected
 
 ```text
+;; -*- mode: beancount -*-
+**** /app/downloads/transactions.csv
+
 2021-12-02 * "Dummy Payee" ""
   Assets:Checking  1868.26 USD
   Income:Dummy
@@ -23,7 +26,14 @@ cd $(mktemp -d) && \
 
 ### Actual
 
-Blank output
+```text
+;; -*- mode: beancount -*-
+**** /app/downloads/transactions.csv
+
+; 2021-12-02 * "Dummy Payee" ""
+;   Assets:Checking  1868.26 USD
+;   Income:Dummy
+```
 
 ## Notes
 

@@ -2,8 +2,4 @@
 
 set -eu
 
-PYTHONPATH="$PWD" bean-extract repro.config.py downloads/ \
-  --existing repro.beancount \
-    | grep -v '^;' \
-    | grep -v '^\*\*\*' \
-    | cat -s
+PYTHONPATH="$PWD" bean-extract repro.config.py downloads/ --existing repro.beancount
